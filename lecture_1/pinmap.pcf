@@ -1,0 +1,27 @@
+# example.pcf
+
+#LED IO
+set_io --warn-no-port o_led 99
+#set_io --warn-no-port LED2 98
+#set_io --warn-no-port LED3 97
+#set_io --warn-no-port LED4 96
+#set_io --warn-no-port LED5 95
+#set_io --warn-no-port HWCLK 21
+
+#HEADER PINS IO
+set_io --warn-no-port i_sw 112
+#set_io --warn-no-port GPIO3 113
+#set_io --warn-no-port GPIO4 114
+#set_io --warn-no-port GPIO5 115
+#set_io --warn-no-port GPIO6 116
+#set_io --warn-no-port GPIO7 117
+#set_io --warn-no-port GPIO8 118
+#set_io --warn-no-port GPIO9 119
+#set_io --warn-no-port GPIO10 44
+#set_io --warn-no-port GPIO11 45
+#set_io --warn-no-port GPIO12 47
+#set_io --warn-no-port GPIO13 48
+#set_io --warn-no-port GPIO14 56
+#set_io --warn-no-port GPIO15 60
+#set_io --warn-no-port GPIO16 61
+#set_io --warn-no-port GPIO17 62
