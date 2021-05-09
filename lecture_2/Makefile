@@ -32,8 +32,11 @@ verilator:
 	verilator -Wall --cc --exe --build --trace -I=/src -I=/test test/$(filename).cpp src/$(filename).v
 	./obj_dir/V$(filename)
 
+trace:
+	gtkwave data/$(filename)trace.vcd
+
 burn:
-	iceprog $(BUILD)/$(PROJ).bin
+	iceprog $(BUILD)/$(PROJ).bin&
 
 clean:
 	rm -rf build
